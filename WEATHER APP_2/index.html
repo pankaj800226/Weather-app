@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,53 +8,55 @@
     <link rel="stylesheet" href="style.css">
     <title>Weather app</title>
 </head>
+
 <body onload="showTime()">
 
     <div class="container">
-    <div class="card">
-        <div class="search">
-            <input type="search" placeholder="enter city name" spellcheck="false">
-            <button><img src="image/search.png" alt=""></button>
-        </div>
-        <div class="error">
-            <p>Inviles city name</p>
-        </div>
-        <div class="weather">
-            <img src="image/rain.png" class="weather-icon">
-            <h1 class="temp">14°C</h1>
-            <h2 class="city">New York</h2>
-            <div class="details">
-                <div class="col">
-                    <img src="image/humidity.png">
-                    <div>
-                        <p class="humidity">93%</p>
-                        <p>humidity</p>
+        <div class="card">
+            <div class="search">
+                <input type="search" placeholder="enter city name" spellcheck="false">
+                <button><img src="image/search.png" alt="search_img"></button>
+            </div>
+            <div class="error">
+                <p>Invlide city namse</p>
+            </div>
+            <div class="weather">
+                <img src="image/rain.png" class="weather-icon">
+                <h1 class="temp">14°C</h1>
+                <h2 class="city">New York</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="image/humidity.png">
+                        <div>
+                            <p class="humidity">93%</p>
+                            <p>humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="image/wind.png">
+                        <div>
+                            <p class="wind">6.69 Km/h</p>
+                            <p>Wind Speed</p>
+                        </div>h3
                     </div>
                 </div>
-
-                <div class="col">
-                    <img src="image/wind.png">
-                    <div>
-                        <p class="wind">6.69 Km/h</p>
-                        <p>Wind Speed</p>
-                    </div>h3
-                </div>
+            </div>
+            <div class="date">
+                <h3 class="monthName" id="monthName"></h3>
+                <h3 class="weekDay" id="weekDay"></h3>
+                <h3 class="date" id="date"></h3>
+                <h3 class="year" id="year"></h3>
             </div>
         </div>
-       <div class="date">
-    <h3 class="monthName" id="monthName"></h3>
-    <h3 class="weekDay" id="weekDay"></h3>
-    <h3 class="date" id="date"></h3>
-    <h3 class="year" id="year"></h3>
-</div>
     </div>
-</div>
- <div class="Time">
-    <span></span>
- </div>
+    <div class="Time">
+        <span></span>
+    </div>
 
- 
+
 
     <script src="app.js"></script>
 </body>
+
 </html>

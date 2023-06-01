@@ -11,15 +11,12 @@
   background-image: url(weather2.jpg);
   background-position: center;
   background-size: cover;
-  /* height: 110vh; */
-  /* width: 100%; */
 }
 
 
 .card {
   width: 90%;
   max-width: 470px;
-  /* background: linear-gradient(135deg, #222, #504f5d); */
   background-color: #000000d0;
   color: #fff;
   margin: 0px auto 0;

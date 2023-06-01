@@ -58,12 +58,6 @@ searchBox.addEventListener('keyup', (event)=>{
     }
 })
 
-// searchBox.addEventListener('keyup', ()=>{
-//     checkWeather(searchBox.value);
-   
-// })
-
-//time table for weather
 
 function showTime(){
         
@@ -83,7 +77,7 @@ function showTime(){
     
 
     h = h < 10 ? "0"+h :h;
-    m = m < 10 ? "0"+m :m;        //Ternari Operator
+    m = m < 10 ? "0"+m :m;        
     s = s < 10 ? "0"+s :s;
 
 
